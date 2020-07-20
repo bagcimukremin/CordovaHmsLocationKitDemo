@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+    HMS Location Kit Cordova Kick-Start Project - activityIdentification.html
+-->
+<html>
+
+<head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 
+        https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; 
+        img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <title>HMS Location</title>
+</head>
+
+<body>
+    <div class="app">
+        <h2>HMS Location Kit - Activity Identification</h2>
+
+        <div class="feature-section">
+            <div class="feature-single">
+                <button id="hasActivityPermission" class=" myButton">Check permission</button>
+                <p id="hasActivityPermissionResult" class=" border"></p>
+            </div>
+
+            <div class="feature-single">
+                <button id="requestActivityIdentificationPermisson" class=" myButton">Get permission</button>
+                <p id="requestActivityIdentificationPermissonResult" class=" border"></p>
+            </div>
+
+            <div class="feature-single">
+                <button id="createActivityConversionUpdates" class=" myButton">Create Activity Conversion
+                    Updates</button>
+                <p id="createActivityConversionUpdatesResult" class=" border"></p>
+            </div>
+
+            <div class="feature-single">
+                <button id="registerActivityConversionUpdates" class=" myButton">Register Activity Conversion
+                    Updates</button>
+                <p id="activityConversionUpdateResult" class=" border"></p>
+            </div>
+
+            <div class="feature-single">
+                <button id="deleteActivityConversionUpdates" class=" myButton">Delete activity conversion
+                    requests</button>
+            </div>
+
+            <div class="feature-single">
+                <button id="createActivityIdentificationUpdates" class=" myButton">Create Activity Identification
+                    Updates</button>
+                <p id="createActivityIdentificationUpdatesResult" class=" border"></p>
+            </div>
+
+            <div class="feature-single">
+                <button id="registerActivityIdentificationUpdates" class=" myButton">Register Activity Identification
+                    Updates</button>
+                <p id="activityIdentificationUpdateResult" class=" border"></p>
+            </div>
+
+            <div class="feature-single">
+                <button id="deleteActivityIdentificationUpdates" class=" myButton">Delete identification conversion
+                    requests</button>
+            </div>
+            
+        </div>
+        
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/activityIdentification.js"></script>
+</body>
+
+</html>

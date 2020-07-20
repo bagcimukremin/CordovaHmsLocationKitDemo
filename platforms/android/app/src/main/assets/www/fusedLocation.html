@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--
+    HMS Location Kit Cordova Kick-Start Project - fusedLocation.html
+-->
+<html>
+
+<head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 
+        https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; 
+        img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <title>HMS Location</title>
+</head>
+
+<body>
+    <div class="app">
+        <h2>HMS Location Kit - Fused Location</h2>
+        <div class="feature-section">
+
+            <div class="feature-single">
+                <button id="requestPermission" class=" myButton">Get permissionn</button>
+            </div>
+
+            <div class="feature-single">
+                <button id="hasPermission" class=" myButton">Check permission</button>
+                <p id="hasPermissionResult" class=" border"></p>
+            </div>
+
+            <div class="feature-single">
+                <button id="getLastLocation" class=" myButton">Get last location</button>
+                <p id="getLastLocationResult" class=" border"></p>
+            </div>
+
+            <div class="feature-single">
+                <button id="getLocationAvailability" class=" myButton">Get location availability</button>
+                <p id="getLocationAvailabilityResult" class=" border"></p>
+            </div>
+
+            <div class="feature-single">
+                <button id="flushLocations" class=" myButton">Flush locations</button>
+                <p id="flushLocationsResult" class=" border"></p>
+            </div>
+
+            <div class="feature-single">
+                <button id="checkLocationSettings" class=" myButton">Check location settings</button>
+                <p id="checkLocationSettingsResult" class=" border"></p>
+            </div>
+
+            <div class="feature-single">
+                <button id="getLastLocationWithAddress" class=" myButton ">Get last location with address</button>
+                <p id="getLastLocationWithAddressResult" class=" border"></p>
+            </div>
+
+            <div class="feature-single">
+                <table>
+                    <th><button id="enableMockMode" class=" myButton">Enable mock location</button></th>
+                    <th><button id="disableMockMode" class=" myButton">Disable mock location</button></th>
+                </table>
+            </div>
+
+            <div class="feature-single">
+                <input id='mockLat' type='text' placeholder="Lat" />
+                <input id='mockLong' type='text' placeholder="Long" />
+                <button id="setMockLocation" class=" myButton">Set location</button>
+            </div>
+
+            <div class="feature-single">
+                <button id="requestLocationUpdates" class=" myButton">Request location updates</button>
+                <p id="requestLocationUpdatesResult" class=" border"></p>
+            </div>
+
+            <div class="feature-single">
+                <button id="registerLocationUpdates" class=" myButton">Register location updates</button>
+                <p id="locationUpdateResult" class=" border"></p>
+            </div>
+
+            <div class="feature-single">
+                <button id="removeLocationUpdateRequests" class=" myButton">Remove location update requests</button>
+            </div>
+
+        </div>
+
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/fusedLocation.js"></script>
+
+</body>
+
+</html>

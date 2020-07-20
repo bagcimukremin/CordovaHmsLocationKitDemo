@@ -1,0 +1,18 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-hms-location": {
+    "source": {
+      "type": "registry",
+      "id": "@hmscore/cordova-plugin-hms-location@^4.0.3"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

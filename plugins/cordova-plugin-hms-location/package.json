@@ -1,0 +1,82 @@
+{
+  "_from": "@hmscore/cordova-plugin-hms-location",
+  "_id": "@hmscore/cordova-plugin-hms-location@4.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-AsIHyJiUFyt9xHx1vGibsX5/2BGB5NpOvbixNuqM1uczEbPqrz1MuLizT4B9Fjhp7zmm1Ivb0NIavw23Nowq4A==",
+  "_location": "/@hmscore/cordova-plugin-hms-location",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@hmscore/cordova-plugin-hms-location",
+    "name": "@hmscore/cordova-plugin-hms-location",
+    "escapedName": "@hmscore%2fcordova-plugin-hms-location",
+    "scope": "@hmscore",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@hmscore/cordova-plugin-hms-location/-/cordova-plugin-hms-location-4.0.3.tgz",
+  "_shasum": "7f6bbdb1694029838c2926e72d4bf079fe3f0276",
+  "_spec": "@hmscore/cordova-plugin-hms-location",
+  "_where": "C:\\Users\\m84167748\\Desktop\\HmsLocationKitDemo",
+  "bugs": {
+    "url": "https://github.com/HMS-Core/hms-cordova-plugin/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-hms-location",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova HMS Location Kit",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-semistandard": "^11.0.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "files": [
+    "res/**",
+    "src/**",
+    "www/**",
+    "LICENCE",
+    "package.json",
+    "plugin.xml",
+    "README.md"
+  ],
+  "homepage": "https://developer.huawei.com/consumer/en/doc/overview/HMS-Core-Plugin",
+  "keywords": [
+    "cordova",
+    "cordova-location",
+    "hms-location",
+    "huawei-location"
+  ],
+  "license": "Apache-2.0",
+  "licenseFilename": "LICENCE",
+  "name": "@hmscore/cordova-plugin-hms-location",
+  "packagename": "cordova-location",
+  "packageversion": "4.0.3.300",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HMS-Core/hms-cordova-plugin.git",
+    "directory": "cordova-plugin-hms-location"
+  },
+  "title": "Cordova HMS Location Kit",
+  "version": "4.0.3"
+}
